@@ -39,24 +39,7 @@ Each model variant is quantized using AIMET [Recipe 2](https://quic.github.io/ai
 
 **Total: 6 quantized models**
 
-## Project Structure
-
-```
-aimet_playground/
-├── aimet/                  # AIMET submodule
-├── configs/
-│   ├── smoothquant_recipe.yaml
-│   └── mobilequant_recipe.yaml
-├── scripts/
-│   ├── smoothquant.sh      # Generate SmoothQuant model
-│   ├── mobilequant.sh      # Generate MobileQuant model
-│   └── aimet_quant.sh      # Run AIMET quantization
-├── main.py
-├── pyproject.toml
-└── README.md
-```
-
-## Expected Results
+## Results
 
 The experiment aims to produce a comparison table like:
 
