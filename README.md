@@ -33,7 +33,7 @@ Each model variant is quantized using AIMET [Recipe 2](https://quic.github.io/ai
 
 | Model Variant | W4A16 | W8A8 |
 |---------------|-------|------|
-| Original      | ✓     | ✓    |
+| Original      | [✓](https://huggingface.co/soiji/Llama-3.2-1B-Instruct_SmoothQuant)     | ✓    |
 | SmoothQuant   | ✓     | ✓    |
 | MobileQuant   | ✓     | ✓    |
 
