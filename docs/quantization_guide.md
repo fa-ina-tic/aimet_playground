@@ -24,10 +24,10 @@ PCQ
 해서 타겟 모델이 
 
 Progress
-- [ ] Original Model
-    - [ ] PCQ
+- [X] Original Model
+    - [X] PCQ
         - [x] w4a16
-        - [ ] w8a8
+        - [X] w8a8
     - [x] LPBQ
         - [x] w4a16
         - [x] w8a8

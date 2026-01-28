@@ -3,5 +3,18 @@ name = "aimet-playground"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = []
+requires-python = ">=3.10"
+dependencies = [
+    "aimet-torch",
+    "datasets>=4.5.0",
+    "onnxruntime==1.19.2",
+    "peft>=0.18.1",
+    "pytest>=9.0.2",
+    "tokenizers>=0.21.4",
+    "torch>=2.10.0",
+    "transformers==4.53.0",
+]
+
+[[tool.uv.index]]
+url = "http://10.10.12.57:9000/repository/pypi-repos/simple"
+default = true
