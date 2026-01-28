@@ -12,9 +12,5 @@ python -m Examples.torch.evaluate  \
 evaluation output
 | Recipe | bit | Original | SmoothQuant | MobileQuant |
 | - | - | - | - | - |
-| brutal(without recipes) | w4a16 | - | - | - |
-| brutal(without recipes) | w8a8 | - | - | - |
-| pcq_spinquant_adascale | w4a16 | - | - | - |
-| pcq_spinquant_adascale | w8a8 | - | - | - |
-| lpbq_seqmse | w4a16 | - | - | - |
-| lpbq_seqmse | w8a8 | - | - | - |
+| pcq_spinquant_adascale | w4a16 | 35.384281158447266 | 26.687795639038086 | - |
+| lpbq_seqmse | w4a16 | 13.811701774597168 | 13.760761260986328 | - |

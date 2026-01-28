@@ -26,24 +26,12 @@ PCQ
 Progress
 - [X] Original Model
     - [X] PCQ
-        - [x] w4a16
-        - [X] w8a8
     - [x] LPBQ
-        - [x] w4a16
-        - [x] w8a8
-- [ ] SmoothQuant Model
+- [X] SmoothQuant Model
     - [x] [SmoothQuant](https://huggingface.co/soiji/Llama-3.2-1B-Instruct_SmoothQuant)
-    - [ ] PCQ
-        - [ ] w4a16
-        - [ ] w8a8
+    - [X] PCQ
     - [x] LPBQ
-        - [x] [w4a16](https://huggingface.co/soiji/Llama-3.2-1B-Instruct_Smoothquant_w4a16_LPBQ)
-        - [x] [w8a8](https://huggingface.co/soiji/Llama-3.2-1B-Instruct_Smoothquant_w8a8_LPBQ)
 - [ ] MobileQuant Model
     - [ ] MobileQuant
     - [ ] PCQ
-        - [ ] w4a16
-        - [ ] w8a8
     - [ ] LPBQ
-        - [ ] w4a16
-        - [ ] w8a8
