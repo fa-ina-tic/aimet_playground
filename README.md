@@ -27,20 +27,15 @@ Investigate whether SmoothQuant and MobileQuant pre-processing can improve quant
 
 Each model variant is quantized using AIMET [Recipe](https://quic.github.io/aimet-pages/releases/latest/tutorials/quantization_recipe.html) with two configurations:
 
-| Scheme | Weights | Activations |
-|--------|---------|-------------|
-| pcq_spinquant_adascale  | 4-bit  | 16-bit |
-| lpbq_seqmse   | 4-bit   | 16-bit |
-
 ## Results
 
-| Model | Quantization | recipe |  PPL ↓ | MMLU ↑ |
-|-------|--------------|--------|-------|--------|
-| Original | W4A16 | pcq_spinquant_adascale | 35.384281158447266 | - |
-| Original | W4A16 | lpbq_seqmse | 13.811701774597168 | - |
-| SmoothQuant | W4A16 | pcq_spinquant_adascale | 26.687795639038086 | - |
-| SmoothQuant | W4A16 | lpbq_seqmse | 13.760761260986328 | - |
-| MobileQuant | W4A16 | pcq_spinquant_adascale | - | - |
-| MobileQuant | W4A16 | lpbq_seqmse | - | - |
+| Model | recipe |  PPL ↓ | MMLU ↑ |
+|-------|--------|-------|--------|
+| Original | pcq_spinquant_adascale | 35.384281158447266 | - |
+| Original | lpbq_seqmse | 13.811701774597168 | - |
+| SmoothQuant | pcq_spinquant_adascale | 26.687795639038086 | - |
+| SmoothQuant | lpbq_seqmse | 13.760761260986328 | - |
+| MobileQuant | pcq_spinquant_adascale | - | - |
+| MobileQuant | lpbq_seqmse | - | - |
 
-You can check models in my [huggingface collection](https://huggingface.co/collections/soiji/aimet-quant-test)
+You can check models in [huggingface collection](https://huggingface.co/collections/soiji/aimet-quant-test)

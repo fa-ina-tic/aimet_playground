@@ -8,9 +8,3 @@ python -m Examples.torch.evaluate  \
 --checkpoint "../models/Llama-3.2-1B-Instruct_Smoothquant_LPBQ"  \
 --eval-ppl
 ```
-
-evaluation output
-| Recipe | bit | Original | SmoothQuant | MobileQuant |
-| - | - | - | - | - |
-| pcq_spinquant_adascale | w4a16 | 35.384281158447266 | 26.687795639038086 | - |
-| lpbq_seqmse | w4a16 | 13.811701774597168 | 13.760761260986328 | - |
