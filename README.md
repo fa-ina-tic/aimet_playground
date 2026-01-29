@@ -20,7 +20,7 @@ Investigate whether SmoothQuant and MobileQuant pre-processing can improve quant
 |---|---------------|-------------|
 | 1 | [Original](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct) | Base Llama 3.2 1B Instruct model |
 | 2 | [SmoothQuant](https://huggingface.co/soiji/Llama-3.2-1B-Instruct_SmoothQuant) | Pre-processed with [llmcompressor](https://github.com/vllm-project/llm-compressor) SmoothQuant |
-| 3 | MobileQuant(WiP) | Pre-processed with [MobileQuant](https://github.com/saic-fi/MobileQuant) technique |
+| 3 | [MobileQuant](https://huggingface.co/soiji/Llama-3.2-1B-Instruct_Mobilequant) | Pre-processed with [MobileQuant](https://github.com/saic-fi/MobileQuant) technique |
 
 
 ### Quantization Schemes
