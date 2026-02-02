@@ -31,9 +31,9 @@ Each model variant is quantized using AIMET [Recipe](https://quic.github.io/aime
 
 | Model | recipe |  PPL ↓ | MMLU ↑ |
 |-------|--------|-------|--------|
-| Original | pcq_spinquant_adascale | 35.384281158447266 | - |
+| Original | pcq_spinquant_adascale | 13.658965110778809 | - |
 | Original | lpbq_seqmse | 13.811701774597168 | - |
-| SmoothQuant | pcq_spinquant_adascale | 26.687795639038086 | - |
+| SmoothQuant | pcq_spinquant_adascale | 13.576032638549805 | 41.72482552342971 |
 | SmoothQuant | lpbq_seqmse | 13.760761260986328 | - |
 | MobileQuant | pcq_spinquant_adascale | - | - |
 | MobileQuant | lpbq_seqmse | - | - |
