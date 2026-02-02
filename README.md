@@ -29,7 +29,7 @@ Each model variant is quantized using AIMET [Recipe](https://quic.github.io/aime
 
 ## Results
 
-| Model | recipe |  PPL ↓ | MMLU ↑ |
+| Model | recipe |  PPL(aimet.Examples.torch.evaluate) ↓ | MMLU(aimet.Examples.onnx.evaluate) ↑ |
 |-------|--------|-------|--------|
 | Original | pcq_spinquant_adascale | 13.658965110778809 | - |
 | Original | lpbq_seqmse | 13.811701774597168 | - |
