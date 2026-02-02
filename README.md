@@ -29,6 +29,7 @@ Each model variant is quantized using AIMET [Recipe](https://quic.github.io/aime
 
 ## Results
 
+### Test to verify whether the same workflow can be applied simply by replacing the current model with a SmoothQuant version.
 | Model | recipe |  PPL(aimet.Examples.torch.evaluate) ↓ | MMLU(aimet.Examples.onnx.evaluate) ↑ |
 |-------|--------|-------|--------|
 | Original | pcq_spinquant_adascale | 13.658965110778809 | - |
@@ -38,4 +39,20 @@ Each model variant is quantized using AIMET [Recipe](https://quic.github.io/aime
 | MobileQuant | pcq_spinquant_adascale | - | - |
 | MobileQuant | lpbq_seqmse | - | - |
 
+### Test the impact of technique
+| Model | quantization |  PPL(aimet.Examples.torch.evaluate) ↓ | MMLU(aimet.Examples.onnx.evaluate) ↑ |
+|-------|--------|-------|--------|
+| Original | w4a16 | - | - |
+| Original | w8a8 | - | - |
+| SmoothQuant | w4a16 | - | - |
+| SmoothQuant | w8a8 | - | - |
+| MobileQuant | w4a16 | - | - |
+| MobileQuant | w8a8 | - | - |
+| OmniQuant | w4a16 | - | - |
+| OmniQuant | w8a8 | - | - |
+| SpinQuant | w4a16 | - | - |
+| SpinQuant | w8a8 | - | - |
+
+
 You can check models in [huggingface collection](https://huggingface.co/collections/soiji/aimet-quant-test)
+
