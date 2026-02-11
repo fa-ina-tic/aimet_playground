@@ -1,6 +1,7 @@
 [submodule "aimet"]
 	path = aimet
-	url = https://github.com/quic/aimet.git
+	url = https://github.com/fa-ina-tic/aimet.git
+	branch = smoothquant
 [submodule "MobileQuant"]
 	path = MobileQuant
 	url = https://github.com/saic-fi/MobileQuant.git
